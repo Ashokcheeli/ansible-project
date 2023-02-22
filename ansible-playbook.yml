@@ -85,4 +85,5 @@
   tasks:
     - name: start tomcat
       command: nohup sh /etc/tomcat/bin/startup.sh
+      state: present
       tags: start-tomcat
